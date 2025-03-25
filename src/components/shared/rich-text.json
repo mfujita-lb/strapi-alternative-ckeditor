@@ -7,8 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "body": {
-      "type": "richtext"
+    "tinymce": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
     }
   }
 }

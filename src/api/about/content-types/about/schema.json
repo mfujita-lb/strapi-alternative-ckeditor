@@ -15,9 +15,9 @@
     "title": {
       "type": "string"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "tinymce": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
     }
   }
 }
